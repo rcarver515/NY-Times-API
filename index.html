@@ -5,11 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
 </head>
+
 <body>
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="javascript/java.js"></script>
+    <!--Jumbotron-->
+    <div class="container">
+
+        <div class="jumbotron" style="background-color: navy ; color: white;">
+            <h1 class="text-center">
+                <strong>
+                    <i class="fa fa-newspaper-o"></i> New York Times Search</strong>
+            </h1>
+        </div>
+    </div>
+    <!--Form-->
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Search Term</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Roosevelt">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Number of Records to Retrieve:</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="10">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Start Year(Optional):</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="1923">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputPassword1">End Year (Optional):</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="1929">
+        </div>
+
+
+
+        <button type="Search" class="btn btn-primary">Search</button>
+    </form>
+
+
+
+
+
+
 </body>
 
 </html>
